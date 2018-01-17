@@ -1,4 +1,15 @@
 # Exercises
+## 1.
+```
+3.
+!=   <    >>>         doubleValue   isNaN           isValidShort   shortValue       toDouble        toShort      
+%    <<   ^           floatValue    isNegInfinity   isWhole        signum           toFloat         unary_+      
+&    <=   abs         floor         isPosInfinity   longValue      to               toHexString     unary_-      
+*    ==   byteValue   getClass      isValidByte     max            toBinaryString   toInt           unary_~      
++    >    ceil        intValue      isValidChar     min            toByte           toLong          underlying   
+-    >=   compare     isInfinite    isValidInt      round          toChar           toOctalString   until        
+/    >>   compareTo   isInfinity    isValidLong     self           toDegrees        toRadians       |            
+```
 
 ## 2.
 ```
@@ -9,7 +20,7 @@ val sqr = math.pow(sqrt, 2)
 //2.9999999999999996
 ```
 
-## 3>
+## 3.
 ```
 math.sqrt(3)
 res0 = 1.0
@@ -17,12 +28,14 @@ res0 = 1.0
 ```
 
 ## 4.
-```val s = "crazy" * 3
+```
+val s = "crazy" * 3
 //crazycrazycrazy
 ```
 
 ## 5.
-```val i = 10 max 2
+```
+val i = 10 max 2
 //Returns this if this > that or that otherwise.
 ```
 
@@ -34,10 +47,8 @@ bi.pow(bi, 1024)
 
 ## 7.
 ```
-import scala.util._
+import scala.util.
 import scala.BigInt.probablePrime
-
-import scala.util._
 ```
 
 ## 8.
@@ -57,8 +68,9 @@ filename(filename.length-1)
 ```
 
 ## 10.
+```
 filename.take(2)
 filename.drop(2)
 filename.takeRight(2)
 filenae.dropRight(2)
-
+```
