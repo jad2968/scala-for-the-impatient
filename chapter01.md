@@ -20,7 +20,7 @@ val sqr = math.pow(sqrt, 2)
 //2.9999999999999996
 ```
 
-## 3
+## 3.
 ```
 math.sqrt(3)
 res0 = 1.0
