@@ -28,12 +28,14 @@ res0 = 1.0
 ```
 
 ## 4.
-```val s = "crazy" * 3
+```
+val s = "crazy" * 3
 //crazycrazycrazy
 ```
 
 ## 5.
-```val i = 10 max 2
+```
+val i = 10 max 2
 //Returns this if this > that or that otherwise.
 ```
 
